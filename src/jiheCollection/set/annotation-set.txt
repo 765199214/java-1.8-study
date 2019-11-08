@@ -1,0 +1,9 @@
+ * 使用TreeSet子类进行数据保存的时候，重复元素的判断依靠的是Comparable接口完成的。
+ * 如果使用的是HashSet子类，由于其跟Comparable没有任何关系，所以它判断重复元素的方式依靠的是Object类中的两个方法
+ * hash码：public int hashCode();
+ * 对象比较：public boolean equals(Object obj);
+ 
+ 
+ java对象的比较  ：
+ 	第一步：通过一个对象的唯一编码找到一个对象的信息
+ 	第二步：当编码匹配之后调用equals()方法进行  内容  的比较。

@@ -1,0 +1,2 @@
+Statement   和        PreparedStatement  的区别
+Statement 传入的sql如果需要写成动态，比较花时间    sql语句代码很混乱

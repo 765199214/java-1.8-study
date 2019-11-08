@@ -1,0 +1,5 @@
+BufferedReader 属于一个缓冲的输入流，而且是一个字符流的操作对象
+但是必须要清楚一点，对于缓冲流在java.io中有两类
+	|-字节缓冲流 BufferedInputStream
+	|-字符缓冲流 BufferedReader    readLine()-->直接读取一行数据(以回车为换行符)
+	
