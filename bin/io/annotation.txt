@@ -1,0 +1,9 @@
+打印流解决的是OutputStream的缺陷
+BufferedReader解决的是InputStream的缺陷
+
+java.util.Scanner解决的是BufferedReader类的缺陷
+
+流的总结：
+	以后只要是除了二进制的文件拷贝之外，
+	那么只要是针对于程序的信息输出都是用打印流(程序输出信息  printWriter、printStream)，
+	信息输入都使用Scanner(扫描流---程序读数据)

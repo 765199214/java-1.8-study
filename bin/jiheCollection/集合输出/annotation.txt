@@ -1,0 +1,8 @@
+Iterator 迭代是由java.util.Collection最早定义
+ListIterator 双向迭代是由java.util.List接口额外定义
+
+Enumeration接口   由  java.util.List下的Vector类进行额外定义的，但其父类List中并没有
+
+总结：
+	看见集合输出  就使用Iterator
+	Iterator和Enumerator接口中的方法一定要掌握牢靠
